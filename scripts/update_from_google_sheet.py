@@ -4,7 +4,6 @@ import os
 import argparse
 import logging
 import csv
-import time
 
 from urllib.request import urlopen
 from pathlib import Path
@@ -23,7 +22,6 @@ IN_COLUMNS = ['timestamp', 'name', 'masto', 'twitter', 'bio']
 OUTFILE = Path(__file__).parent / '..' / 'resources' / 'users.csv'
 OUT_COLUMNS = ['account', 'name', 'link']
 MAX_WEEKS_SINCE_POST = 8
-SLEEP = 1
 
 
 def get_google_sheet():
@@ -53,7 +51,6 @@ def convert_row(row):
 def account_active(client, acct, delta):
     try:
         # Pause a little not to overload the server
-        time.sleep(SLEEP)
         account = client.account_lookup(acct)
     except MastodonNotFoundError:
         logging.debug(f'Account {acct} not found on server')
