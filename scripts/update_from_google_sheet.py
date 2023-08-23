@@ -81,7 +81,7 @@ def update_from_google_sheet(data, outfile, *, delta=None):
                 # API does not take leading @
                 acct = new_row['account'].lstrip('@')
                 if not account_active(client, acct, delta):
-                    logging.debug(f'Inactive account: @{acct}')
+                    logging.info(f'Inactive account: @{acct}')
                     continue
             writer.writerow(new_row)
 
@@ -97,7 +97,7 @@ def main():
     args = arg_parser.parse_args()
     # Set up logging
     if args.verbose:
-        level = logging.DEBUG
+        level = logging.INFO
     else:
         level = logging.ERROR
     logging.basicConfig(level=level)
