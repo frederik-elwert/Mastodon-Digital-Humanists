@@ -32,7 +32,9 @@ def get_google_sheet():
         # We pass our own field names, so skip the original header row
         lines.pop(0)
         reader = csv.DictReader(lines, fieldnames=IN_COLUMNS)
-        return list(reader)
+        data = list(reader)
+        data.reverse()
+        return data
 
 
 def convert_row(row):
