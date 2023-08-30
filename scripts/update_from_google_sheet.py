@@ -4,6 +4,7 @@ import os
 import argparse
 import logging
 import csv
+import re
 
 from urllib.request import urlopen
 from pathlib import Path
@@ -39,15 +40,17 @@ def get_google_sheet():
 
 def convert_row(row):
     account = row['masto']
-    name = row['name']
-    account_parts = account.split('@')
-    # Test if account name is correct
-    if len(account_parts) != 3:
+    if m := re.match(r'https://(?P<server>.*)/@(?P<user>.*)', account):
+        pass
+    elif m := re.match(r'@?(?P<user>.*)@(?P<server>.*)', account):
+        pass
+    else:
         raise ValueError(f'Malformed account: {account}')
-    link = f'https://{ account_parts[2] }/@{ account_parts[1] }'
-    return {'account': account,
-            'name': name,
-            'link': link}
+    user = m.group('user')
+    server = m.group('server')
+    return {'account': f'@{ user }@{ server }',
+            'name': row['name'],
+            'link': f'https://{ server }/@{ user }'}
 
 
 def account_active(client, acct, delta):
@@ -106,7 +109,8 @@ def main():
     # Return exit value
     if args.max_weeks:
         delta = timedelta(weeks=args.max_weeks)
-    else: delta=None
+    else:
+        delta = None
     data = get_google_sheet()
     update_from_google_sheet(data, args.outfile, delta=delta)
     return 0
