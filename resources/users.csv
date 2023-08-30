@@ -1,4 +1,19 @@
 account,name,link
+@ACDHCH_OeAW@fedihum.org,Austrian Centre for Digital Humanities and Cultural Heritage,https://fedihum.org/@ACDHCH_OeAW
+@arockenberger@fedihum.org,Annika Rockenberger,https://fedihum.org/@arockenberger
+@aronambrosiani@glammr.us,Aron Ambrosiani,https://glammr.us/@aronambrosiani
+@SvenLieber@hcommons.social,Sven Lieber,https://hcommons.social/@SvenLieber
+@crecente@games.ngo,Drew Crecente,https://games.ngo/@crecente
+@saschel@mastodon.social,Saskia Scheltjens,https://mastodon.social/@saschel
+@SerhatTutkal@fediscience.org ,Serhat Tutkal,https://fediscience.org /@SerhatTutkal
+@John@mastodon.cc,John Muccigrosso,https://mastodon.cc/@John
+@anja_g_werder@fedihum.org,Anja Gerber,https://fedihum.org/@anja_g_werder
+@BiblioWingate@hcommons.social,Alex Wingate,https://hcommons.social/@BiblioWingate
+@padraic@mastodon.ie,Padraic Stack ,https://mastodon.ie/@padraic
+@kfitz@hcommons.social,Kathleen Fitzpatrick,https://hcommons.social/@kfitz
+@BatsInLavender@hcommons.social,Bonnie Russell,https://hcommons.social/@BatsInLavender
+@NearerAndFarther@techhub.social,Trevor Burrows,https://techhub.social/@NearerAndFarther
+@ThWuebbena@fedihum.org,Thorsten Wübbena,https://fedihum.org/@ThWuebbena
 @wragge@hcommons.social,Tim Sherratt,https://hcommons.social/@wragge
 @soilandreyes@scholar.social,Stian Soiland-Reyes,https://scholar.social/@soilandreyes
 @bmp@mastodon.sdf.org,Bharath M. Palavalli,https://mastodon.sdf.org/@bmp
@@ -12,8 +27,10 @@ account,name,link
 @seanfobbe@fediscience.org,Seán Fobbe,https://fediscience.org/@seanfobbe
 @neferchitty@mastodon.top,María Ribes-Lafoz ,https://mastodon.top/@neferchitty
 @arturoviaggia@zirk.us,Arthur Urbano,https://zirk.us/@arturoviaggia
+@rdsnyder@fedihum.org,R.D. Snyder,https://fedihum.org/@rdsnyder
 @PhKaufmannMR@climatejustice.social ,Philip Kaufmann,https://climatejustice.social /@PhKaufmannMR
 @taoish@mastodonapp.uk,Mark Saltveit,https://mastodonapp.uk/@taoish
+@NULab@hcommons.social,"Northeastern University NULab for Texts, Maps, and Networks",https://hcommons.social/@NULab
 @aiucd@fedihum.org,AIUCD - Associazione Italiana per l'Informatica Umanistica e la Cultura Digitale,https://fedihum.org/@aiucd
 @SarahMiddle@hcommons.social,Sarah Middle,https://hcommons.social/@SarahMiddle
 @SvenjaGuhr@fedihum.org,Svenja Guhr,https://fedihum.org/@SvenjaGuhr
@@ -38,13 +55,11 @@ account,name,link
 @ericbrasiln@hcommons.social,Eric Brasil,https://hcommons.social/@ericbrasiln
 @chavezheras@sigmoid.social,Daniel Chávez Heras,https://sigmoid.social/@chavezheras
 @vivalosburros@hachyderm.io,Jesse Sadler,https://hachyderm.io/@vivalosburros
-@boulezian@wien.rocks,Mark Berry ,https://wien.rocks/@boulezian
 @CordeliaBeattie@historians.social,Cordelia Beattie,https://historians.social/@CordeliaBeattie
 @kgeographer@mas.to,Karl Grossner,https://mas.to/@kgeographer
 @sharonmleon@hcommons.social,Sharon Leon,https://hcommons.social/@sharonmleon
 @jesperjuul@mstdn.social,Jesper Juul,https://mstdn.social/@jesperjuul
 @etreharne@mastodonapp.uk,Elaine Treharne ,https://mastodonapp.uk/@etreharne
-@sparklebliss@mastodon.gamedev.place,Carly Kocurek,https://mastodon.gamedev.place/@sparklebliss
 @teamseaslug@hcommons.social,Sean Purcell,https://hcommons.social/@teamseaslug
 @abasu@mas.to,Anupam Basu,https://mas.to/@abasu
 @estene@hcommons.social,Emily Esten,https://hcommons.social/@estene
@@ -64,8 +79,10 @@ account,name,link
 @nabsiddiqui@h-net.social,Nabeel Siddiqui,https://h-net.social/@nabsiddiqui
 @proghist@hcommons.social,Programming Historian,https://hcommons.social/@proghist
 @nabsiddiqui@h-net.social,Nabeel Siddiqui,https://h-net.social/@nabsiddiqui
+@Caseyj@mstdn.party,Casey thomas jakubowski phd,https://mstdn.party/@Caseyj
 @Nzagalo@hci.social,Nelson Zagalo,https://hci.social/@Nzagalo
 @ApocalypsisNova@h-net.social,Eduardo Fernández,https://h-net.social/@ApocalypsisNova
+@kallewesterling@mastodon.online,Kalle Westerling,https://mastodon.online/@kallewesterling
 @medievalist@writing.exchange,Lisa L. Spangenberg,https://writing.exchange/@medievalist
 @nullmuseum@hcommons.social,Nullmuseum,https://hcommons.social/@nullmuseum
 @sourisnumerique@fedihum.org,Sarah Ondraszek,https://fedihum.org/@sourisnumerique
@@ -83,17 +100,22 @@ account,name,link
 @dmaus@dmaus.name,David Maus,https://dmaus.name/@dmaus
 @msdixon@zirk.us,Rachel Dixon ,https://zirk.us/@msdixon
 @johentsch@hostux.social,Johannes Hentschel,https://hostux.social/@johentsch
+@heatherfro@zirk.us,heather froehlich,https://zirk.us/@heatherfro
 @alizhorvathaliz@fedihum.org,Alíz Horváth ,https://fedihum.org/@alizhorvathaliz
 @notesjor@det.social,Jan Oliver Rüdiger,https://det.social/@notesjor
 @GrandjeanMartin@mathstodon.xyz,Martin Grandjean,https://mathstodon.xyz/@GrandjeanMartin
+@michaellapides@mstdn.social,Michael Lapides,https://mstdn.social/@michaellapides
+@kerithomas@toot.wales,Dr Keri Thomas,https://toot.wales/@kerithomas
 @AriK@archaeo.social,Arienne King,https://archaeo.social/@AriK
 @cczymara@sciences.social,Christian Czymara ,https://sciences.social/@cczymara
+@jrglmn@mastodon.social,Jörg Lehmann,https://mastodon.social/@jrglmn
 @DigitCurator@digipres.club ,UMaine Digital Curation,https://digipres.club /@DigitCurator
 @kanarinka@mastodon.mit.edu,Catherine D'Ignazio,https://mastodon.mit.edu/@kanarinka
 @catherineomega@mastodon.social,Catherine Winters,https://mastodon.social/@catherineomega
+@John@mastodon.cc,John Muccigrosso,https://mastodon.cc/@John
+@ewg118@hcommons.social,Ethan Gruber,https://hcommons.social/@ewg118
 @kmcdono@mastodonapp.uk,Katie McDonough,https://mastodonapp.uk/@kmcdono
 @nfitzger@glammr.us,Neil Fitzgerald,https://glammr.us/@nfitzger
-@bridgetbarrett@sciences.social,Bridget Barrett,https://sciences.social/@bridgetbarrett
 @kaylendwyer@mastodon.online,Kaylen Dwyer,https://mastodon.online/@kaylendwyer
 @cmhenry_@mas.to,Colin Henry,https://mas.to/@cmhenry_
 @Halperta@hcommons.social,Hannah Alpert-Abrams,https://hcommons.social/@Halperta
@@ -124,7 +146,6 @@ account,name,link
 @samplereality@post.lurk.org,Mark Sample,https://post.lurk.org/@samplereality
 @ach@hcommons.social,ACH (Association for Computers and the Humanities),https://hcommons.social/@ach
 @geoffreyrockwell@masto.ai,Geoffrey Rockwell,https://masto.ai/@geoffreyrockwell
-@gumarten@mastodon.social,Gunther Martens,https://mastodon.social/@gumarten
 @runzinger@mastodon.social,Bernhard Runzheimer,https://mastodon.social/@runzinger
 @hcayless@hcommons.social,Hugh Cayless,https://hcommons.social/@hcayless
 @pfyfe@hcommons.social,Paul Fyfe,https://hcommons.social/@pfyfe
@@ -137,14 +158,15 @@ account,name,link
 @scrivenersjest@dreamers-guild.net,Geoff Gimse,https://dreamers-guild.net/@scrivenersjest
 @calvinball@ondergrond.org,Jolan Wuyts ,https://ondergrond.org/@calvinball
 @markcmarino@mastodon.social,Mark C. Marino,https://mastodon.social/@markcmarino
-@NbtKmy@fosstodon.org,Nobutake Kamiya,https://fosstodon.org/@NbtKmy
 @kiru@openbiblio.social,Péter Király,https://openbiblio.social/@kiru
 @gabrielhankins@hcommons.social,Gabriel Hankins,https://hcommons.social/@gabrielhankins
+@Sesamescholar@mstdn.social,Helle Strandgaard Jensen ,https://mstdn.social/@Sesamescholar
 @dr_pda@hcommons.social,Philip Allfrey,https://hcommons.social/@dr_pda
 @PassableGhost@hcommons.social,John Edward Martin,https://hcommons.social/@PassableGhost
 @fabienbp@sciences.re ,Fabien Bièvre-Perrin,https://sciences.re /@fabienbp
 @theodorajewell@mastodon.social ,Theodora Dryer ,https://mastodon.social /@theodorajewell
 @PaulLev@mastodon.social,Paul Levinson,https://mastodon.social/@PaulLev
+@gworthey@mstdn.social,Glen Layne-Worthey,https://mstdn.social/@gworthey
 @mkgold@hcommons.social,Matthew K. Gold,https://hcommons.social/@mkgold
 @dh_potsdam@hcommons.social,Digital Humanities Network at the Universitiy of Potsdam,https://hcommons.social/@dh_potsdam
 @carwyn@fediscience.org,Carwyn Morris,https://fediscience.org/@carwyn
@@ -168,9 +190,11 @@ account,name,link
 @sramsay@hcommons.social,Stephen Ramsay,https://hcommons.social/@sramsay
 @DrewDGray@mastodon.social,Drew Gray,https://mastodon.social/@DrewDGray
 @jblxdesign@c.im ,Jeff B,https://c.im /@jblxdesign
+@Kita_jin@scholar.social,Thomas Grønvoll,https://scholar.social/@Kita_jin
 @jason_m_kelly@fediscience.org,Jason M. Kelly,https://fediscience.org/@jason_m_kelly
 @dibsroy86@mastodon.online,Dibyadyuti Roy (Dibya/দিব্য),https://mastodon.online/@dibsroy86
 @Jason_Power@mastodon.social,Jason Power,https://mastodon.social/@Jason_Power
+@thist@mstdn.social,Tobias Hodel,https://mstdn.social/@thist
 @aarbrk@mstdn.mx,Aaron Brick,https://mstdn.mx/@aarbrk
 @fuzzyleapfrog@chaos.social,Claudia Frick ,https://chaos.social/@fuzzyleapfrog
 @andreskarjus@mastodon.social,Andres Karjus,https://mastodon.social/@andreskarjus
@@ -181,8 +205,8 @@ account,name,link
 @mneme@glammr.us,Katrina Grant,https://glammr.us/@mneme
 @grvsmth@lingo.lol,Angus Andrea Grieve-Smith,https://lingo.lol/@grvsmth
 @jjsylvia@mastodon.social,J.J. Sylvia IV,https://mastodon.social/@jjsylvia
-@AnujaCabraal@aus.social,Dr Anuja Cabraal,https://aus.social/@AnujaCabraal
-@thescont@mastodon.ie,Scott B. Spencer,https://mastodon.ie/@thescont
+@ruralgloom@c.im,Damon Thomas,https://c.im/@ruralgloom
+@walskaar@post.lurk.org,Thomas Walskaar,https://post.lurk.org/@walskaar
 @_JAStockdale@qoto.org,Jessica Stockdale,https://qoto.org/@_JAStockdale
 @lizfischer@mstdn.social,Liz Fischer,https://mstdn.social/@lizfischer
 @just_me_gi@mastodon.cloud ,,https://mastodon.cloud /@just_me_gi
@@ -213,6 +237,7 @@ account,name,link
 @neferchitty@mastodon.top,María Ribes-Lafoz ,https://mastodon.top/@neferchitty
 @kacebe@scholar.social,Kai-Christian Bruhn ,https://scholar.social/@kacebe
 @krista@mas.to,Krista Murchison ,https://mas.to/@krista
+@pernajl@wien.rocks,Pernille Bogø Jørgensen,https://wien.rocks/@pernajl
 @christof@fedihum.org,Christof Schöch,https://fedihum.org/@christof
 @jomla@mastodon.online,Jonas Müller-Laackman,https://mastodon.online/@jomla
 @ste_santschi@mastodon.social,Stephanie Santschi,https://mastodon.social/@ste_santschi
@@ -237,13 +262,13 @@ account,name,link
 @amardeepmsingh@mas.to,Amardeep Singh,https://mas.to/@amardeepmsingh
 @tjowens@digipres.club,Trevor Owens,https://digipres.club/@tjowens
 @type@literatur.social,Stephan Kurz,https://literatur.social/@type
-@metilli@mastodon.social,Daniele Metilli,https://mastodon.social/@metilli
 @msiemund@openbiblio.social,Melanie Seltmann,https://openbiblio.social/@msiemund
 @pbinkley@code4lib.social,Peter Binkley,https://code4lib.social/@pbinkley
 @elotroalex@hcommons.social,Alex Gil,https://hcommons.social/@elotroalex
 @ryancordell@hcommons.social,Ryan Cordell,https://hcommons.social/@ryancordell
 @mckiernangonzalez@mastodon.green,John Mckiernan-Gonzalez,https://mastodon.green/@mckiernangonzalez
 @shakespearenut@mastodon.nz,Jess Torley,https://mastodon.nz/@shakespearenut
+@Dorialexander@mastodon.social,Pierre-Carl Langlais,https://mastodon.social/@Dorialexander
 @apjanco@fosstodon.org,Andy Janco,https://fosstodon.org/@apjanco
 @pam@hcommons.social ,Pam Lach,https://hcommons.social /@pam
 @rmidura@mastodon.world,R Midura,https://mastodon.world/@rmidura
@@ -254,12 +279,12 @@ account,name,link
 @RonaldVisser@akademienl.social,Ronald Visser,https://akademienl.social/@RonaldVisser
 @alison@hcommons.social,Alison Harvey,https://hcommons.social/@alison
 @owlyph@cosocial.ca,Joshua Chalifour,https://cosocial.ca/@owlyph
-@tantzaerine@kafeneio.social,Tantz Aerine,https://kafeneio.social/@tantzaerine
 @felwert@mstdn.social,Frederik Elwert,https://mstdn.social/@felwert
 @friede@mastodon.online,Emily Friedman,https://mastodon.online/@friede
 @luggage@benehomini.social,James (Jim) Smith,https://benehomini.social/@luggage
 @stefandumont@openbiblio.social,Stefan Dumont,https://openbiblio.social/@stefandumont
 @stribley@journa.host,Robert Stribley,https://journa.host/@stribley
+@epyllia@indieweb.social,Elisa Beshero-Bondar,https://indieweb.social/@epyllia
 @BlckheathHopper@archaeo.social,Jeremy Huggett,https://archaeo.social/@BlckheathHopper
 @JubalBarca@Scholar.Social,James Baillie,https://Scholar.Social/@JubalBarca
 @jcpeyssard@hcommons.social,Jean-Christophe Peyssard,https://hcommons.social/@jcpeyssard
