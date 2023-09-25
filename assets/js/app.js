@@ -172,6 +172,16 @@ function buildUserSelectionForm (users) {
 
 
    /*
+    * Checks if user has a bio string
+    */
+    if (typeof user.bio !== 'undefined' && user.bio !== null && user.bio.trim() !== '') {
+     const bioSeparator = document.createTextNode(" | ")
+     wrapper.appendChild(bioSeparator)
+     bioText = document.createTextNode(user.bio)
+     wrapper.appendChild(bioText)
+    }
+
+   /*
     * Checks if user has a keyword string and seperates it into an
     + array with seperate keywords if that is the case
     */

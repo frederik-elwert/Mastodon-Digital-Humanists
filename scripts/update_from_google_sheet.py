@@ -21,7 +21,7 @@ CSV_URL_TEMPLATE = ('https://docs.google.com/spreadsheets/d/{key}/gviz/'
                     'tq?tqx=out:csv')
 IN_COLUMNS = ['timestamp', 'name', 'masto', 'twitter', 'bio']
 OUTFILE = Path(__file__).parent / '..' / 'resources' / 'users.csv'
-OUT_COLUMNS = ['account', 'name', 'link']
+OUT_COLUMNS = ['account', 'name', 'link', 'bio']
 MAX_WEEKS_SINCE_POST = 8
 
 
@@ -50,7 +50,8 @@ def convert_row(row):
     server = m.group('server')
     return {'account': f'@{ user }@{ server }',
             'name': row['name'],
-            'link': f'https://{ server }/@{ user }'}
+            'link': f'https://{ server }/@{ user }',
+            'bio': row['bio'].strip()}
 
 
 def account_active(client, acct, delta):
