@@ -3,6 +3,7 @@
 import math
 import unittest
 from pathlib import Path
+import csv
 
 HERE = Path(__file__)
 ROOT = HERE.parent.parent.resolve()
@@ -14,13 +15,15 @@ class TestData(unittest.TestCase):
 
     def test_users(self):
         """Test the users CSV file has the right number of columns."""
-        header, *lines = USERS_PATH.read_text().splitlines()
-        number_columns = header.count(",")
-        errors = [
-            (line_number, line)
-            for line_number, line in enumerate(lines, start=2)
-            if line.count(",") != number_columns
-        ]
+        with USERS_PATH.open(newline="") as csvfile:
+            reader = csv.DictReader(csvfile)
+            self.assertIn("account", reader.fieldnames,
+                f"users.csv has wrong format or does not contain column 'account'")            
+            errors = [
+                (line_number, line)
+                for line_number, line in enumerate(reader, start=2)
+                if None in line or None in list(line.values())
+            ]
         if errors:
             message = "Lines with incorrect number of columns:\n"
             max_line = max(i for i, _ in errors)
