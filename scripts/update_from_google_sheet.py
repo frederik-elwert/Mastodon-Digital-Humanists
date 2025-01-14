@@ -22,7 +22,7 @@ CSV_URL_TEMPLATE = ('https://docs.google.com/spreadsheets/d/{key}/gviz/'
 IN_COLUMNS = ['timestamp', 'name', 'masto', 'twitter', 'bio']
 OUTFILE = Path(__file__).parent / '..' / 'resources' / 'users.csv'
 OUT_COLUMNS = ['account', 'name', 'link', 'bio']
-MAX_WEEKS_SINCE_POST = 8
+MAX_WEEKS_SINCE_POST = 12
 
 
 def get_google_sheet():
